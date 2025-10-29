@@ -101,7 +101,7 @@ function solvePolynomial(jsonString) {
 
 // Yahan par filepath me aap apna JSON file ka path de sakte hain.
 
-const filePath = process.argv[2] || "./testcase2.json"; 
+const filePath = process.argv[2] || "./testcase1.json"; 
 
 // Check if filePath is provided
 
@@ -123,4 +123,5 @@ try {
   } else {
     console.error(`An error occurred: ${error.message}`);
   }
+
 }
